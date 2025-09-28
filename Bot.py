@@ -6,7 +6,7 @@ import threading
 
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("1234")
 
 def beep(chat_id) -> None:
     """Send the beep message."""
